@@ -20,9 +20,6 @@ def change_index(idx, k, arr, lenth, count):
                 change_index(idx, k, arr, lenth, count+1)
 
 
-    pass
-
-
 def solution(arr, k):
     for idx in range(len(arr)-1, -1, -1):
         change_index(idx, k, arr, len(arr), 0)
