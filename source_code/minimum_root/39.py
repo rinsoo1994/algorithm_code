@@ -27,7 +27,6 @@ import heapq
 INF = 1e9
 DIRECTION = [(1, 0), (0, 1), (-1, 0), (0, -1)]
 
-
 T = int(input())
 for _ in range(T):
     N = int(input())
